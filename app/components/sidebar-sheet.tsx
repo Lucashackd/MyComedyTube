@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTitle } from "./ui/sheet";
+=======
+import { SheetContent, SheetTitle } from "./ui/sheet";
+>>>>>>> parent of 61bef49 (feat: add Thumbnail component)
 
 const SidebarSheet = () => {
   return (
     <SheetContent>
+<<<<<<< HEAD
       <SheetHeader>
         <SheetTitle>MyComedyTube</SheetTitle>
         <SheetDescription>
@@ -19,6 +24,9 @@ const SidebarSheet = () => {
         </SheetClose>
         
       </SheetHeader>
+=======
+      <SheetTitle>Teste</SheetTitle>
+>>>>>>> parent of 61bef49 (feat: add Thumbnail component)
     </SheetContent>
   );
 };
